@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/resume.css">
+    <title>Resume Maker </title>
+</head>
+<body>
+    <div id="pdf">
+        <hr class="hr">
+        <h3 style="text-align: center;">Resume</h3>
+           <div class="heading">
+          <div class="leftpartofheading" id="about">
+           <h1 id="name1"> Your Name </h1>
+           <hr class="hr">
+           <p id="domain1">FULLSTACK DEVELOPER</p>
+           <p id="mobile1">Mobile- xx.....</p>
+           <p id="email1">Email : email@gmail.com</p>
+           <p id="linkedinid">LinkedIn id</p>
+           <p id="portfoliolink">portfolio link</p>
+        </div>
+    <div class="heading">
+        <div class="leftpartofheading">
+       <h2>Your Photo</h2>
+       <hr class="hr">
+      </div>
+    </div>
+  </div>
+
+  <hr class="hr">
+
+  <div class="heading">
+ <div class="leftpartofheading">
+  <h1>About</h1>
+  <hr class="hr">
+    <p id="aboutelement">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+         Eius consequuntur deserunt veniam ratione iste, 
+         laudantium labore sapiente? Quisquam sequi, doloribus
+          adipisci fuga cum repellat porro incidunt, optio 
+          vitae soluta, voluptatem iusto voluptatibus? Eum
+           repellat exercitationem, temporibus sit optio
+            voluptate, suscipit vero in vel deserunt,
+             perferendis obcaecati voluptatum odit corporis 
+             architecto!</p>
+</div>
+<div class="heading">
+    <div class="rightpartofheading">
+
+<h1>Expericencs</h1>
+<hr class="hr">
+<p id="yourexprence">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit quasi porro 
+    explicabo commodi, harum culpa suscipit consequuntur, recusandae earum
+     natus voluptatibus magnam eaque animi magni inventore eligendi illum 
+     autem tempora quas accusamus? Commodi, pariatur corrupti voluptatibus
+      perferendis voluptate ducimus. Enim quis sapiente inventore dolores 
+      sunt ut illum ipsum aut animi.</p>
+</div>
+</div>
+</div>
+    
+
+
+  <hr class="hr">
+
+  <div class="heading">
+    <div class="leftpartofheading">
+     <h1>Skills</h1>
+     <hr class="hr">
+     <ul>
+     <li id="userskill1">C/C++, java, python</li>
+     <li id="userskill2">HTML,CSS,JAVASCRIPT,REACT</li>
+     <li id="userskill3">NODEJS,EXPRESSJS, MONGODB</li>
+    <li id="userskill4">AI ML</li>
+    <li id="userskill5">Skill 5</li>
+   
+     </ul>
+  </div>
+<div class="heading">
+    <div class="rightpartofheading">
+        <h1>Projects</h1>
+        <hr class="hr">
+        <ul>
+        <li id="yproject1">project 1</li>
+        <li id="yproject2">project 2</li>
+        <li id="yproject3">project 3</li>
+       <li id="yproject4">project 4</li>
+       <li id="yproject5">project 5</li>
+        </ul>
+     </div>
+    
+</div>
+
+</div>
+
+
+
+    </div>
+          <!-- Enter the Details of student Details -->
+          <button onclick="window.print()" id="buttonPrint">Print</button>
+    <div id="details">
+        <div id="sometextaboutuser">
+        <h1 >Enter Your Details For Resume </h1>
+        <p class="savingdata">We are not saving your data.</p>
+    </div>
+        <div id="enterdetails">
+        <input type="text" name="name" placeholder="Full name eg Ram Singh"  id="username"> <br>
+        <input type="text" name="Domain" placeholder="Enter your Domain eg-frontend developer" id="domain"><br>
+        <input type="text" name="mobile" placeholder="Enter the Mobile Number" id="mobile"> <br>
+        <input type="email" name="email" placeholder="Enter your email" id="email"> <br>
+        <input type="text" name="linkedIn" placeholder="Enter your linkedlIn id" id="linkedin"><br>
+        <input type="text" name="portfolio" placeholder="Enter your Portfolio link" id="plink"><br>
+        <textarea id="enterabout" name="" id="" cols="30" rows="5" placeholder="Enter about yourself" style="resize: none;" ></textarea> <br>
+        <textarea id="enterexprence" cols="30" rows="5" placeholder="Enter Your Expericencs" style="resize: none;" ></textarea> <br>
+        <input  type="text" name="project1" placeholder="Enter Project1 link"  id="project1"> <br>
+        <input type="text" name="project2" placeholder="Enter Project2 link"  id="project2"> <br>
+        <input type="text" name="project3" placeholder="Enter Project3 link"  id="project3"> <br>
+        <input type="text" name="project4" placeholder="Enter Project4 link"  id="project4"> <br>
+        <input type="text" name="project5" placeholder="Enter Project5 link"  id="project5"> <br>
+        <input id="skill1" type="text" name="skills" placeholder="Enter your Skills eg C/C++ , java , python" > <br>
+        <input id="skill2" type="text" name="skills" placeholder="Enter your Skills eg HTML,CSS,JAVASCRIPT,REACT" > <br>
+        <input id="skill3" type="text" name="skills" placeholder="Enter your Skills eg NODEJS,EXPRESSJS, MONGODB"> <br>
+        <input id="skill4" type="text" name="skills" placeholder="Enter your Skills eg AI ML"> <br>
+        <input id="skill5" type="text" name="skills" placeholder="Enter your Skills eg Android app " > <br>
+        <button onclick="deatils()" class="btn"> save </button> <br><br>
+       
+</div>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>

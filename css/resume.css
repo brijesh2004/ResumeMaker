@@ -1,0 +1,25 @@
+#pdf{
+    /* border: 1px solid red; */
+    width: 70%;
+   
+    margin: auto;
+    display: none;
+    background-color: white;
+}
+.hr{
+    height: 2px;
+    background-color:rgb(66, 66, 133);
+}
+.heading{
+   display: flex;
+   margin: 30px;
+   justify-content: space-between;
+}
+
+.img{
+width: 300px;
+}
+
+#about{
+    background-color: rgb(186, 54, 54);
+}
