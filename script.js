@@ -3,6 +3,7 @@ function deatils(){
 
     // pulling the data from the user
     const username = document.getElementById("username").value;
+    const collegenameofuser = document.getElementById("collegenameofuser").value;
     const mobile = document.getElementById("mobile").value;
     const domain = document.getElementById("domain").value;
     const email = document.getElementById("email").value;
@@ -30,6 +31,7 @@ function deatils(){
 // push the data into resume  
 
     const name = document.getElementById("name1").innerText = username;
+
     const domain1 = document.getElementById("domain1").innerText = domain;
     const mobile1 = document.getElementById("mobile1").innerText = mobile;
     const email1 = document.getElementById("email1").innerText = email;
@@ -47,6 +49,7 @@ function deatils(){
      document.getElementById("userskill3").innerText=skills3;
      document.getElementById("userskill4").innerText=skills4;
      document.getElementById("userskill5").innerText=skills5;
+     document.getElementById("CollegeName").innerText=collegenameofuser;
 
     // console.log(username+ domain1 + mobile1 ); 
 

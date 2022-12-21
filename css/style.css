@@ -82,3 +82,44 @@ color: white;
     height: 35px;
     display: none;
 }
+
+@media (max-width:810px){
+    input{
+        width: 300px;
+    
+    }
+    textarea{
+        width: 300px;
+    }
+}
+
+@media (max-width:672px){
+    input{
+        width: 250px;
+    
+    }
+    textarea{
+        width: 250px;
+    }
+}
+
+@media (max-width:560px){
+    input{
+        width: 200px;
+    
+    }
+    textarea{
+        width: 200px;
+    }
+    #enterdetails{
+        width: 70%;
+        left: 15%;
+    }
+}
+
+@media (max-width:340px){
+    #enterdetails{
+        width: 90%;
+        left: 5%;
+    }
+}
